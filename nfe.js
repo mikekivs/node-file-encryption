@@ -1,11 +1,11 @@
 const encrypt = require('./lib/encrypt');
 const decrypt = require('./lib/decrypt');
-var readline = require('readline');
-var fs = require('fs');
-var path = require('path');
+let readline = require('readline');
+let fs = require('fs');
+let path = require('path');
 const { ALGORITHM, ENCRYPED_EXT, UNENCRYPED_EXT } = require('./lib/constants');
 
-var rl = readline.createInterface({
+let rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
@@ -60,7 +60,7 @@ function processFiles(dir,operation,pass){
 }
 
 function renameFile(file,op){
-	var ext = '';
+	let ext = '';
 	if(op == 1){
 		ext = ENCRYPED_EXT;
 	}else if(op == 2){
