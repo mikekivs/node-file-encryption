@@ -5,10 +5,10 @@ An interactive CLI app that can encrypt/decrypt files in a directory using node.
 Lib files: [Node Encryption](https://github.com/bbstilson/node-encryption/).
 
 ### Usage
-Navigate into the nfe folder
+Navigate into the nfe folder.
 
     > cd nfe
-Run nfe
+Run nfe.
 
     > node nfe.js
 On the prompt enter the action you want to perform, specify the directory and password.
