@@ -1,4 +1,4 @@
-# Node Encryption
+# Node Files Encryption
 
 An interactive CLI app that can encrypt/decrypt files in a directory using node.
 
