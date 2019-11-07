@@ -7,7 +7,7 @@ Lib files: [Node Encryption](https://github.com/bbstilson/node-encryption/).
 ### Usage
 Navigate into the nfe folder.
 
-    > cd nfe
+    > cd node-file-encryption
 Run nfe.
 
     > node nfe.js
